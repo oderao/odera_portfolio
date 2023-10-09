@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include odera *.css
+recursive-include odera *.csv
+recursive-include odera *.html
+recursive-include odera *.ico
+recursive-include odera *.js
+recursive-include odera *.json
+recursive-include odera *.md
+recursive-include odera *.png
+recursive-include odera *.py
+recursive-include odera *.svg
+recursive-include odera *.txt
+recursive-exclude odera *.pyc
